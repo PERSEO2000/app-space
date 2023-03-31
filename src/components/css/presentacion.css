@@ -1,0 +1,21 @@
+#presentacion {
+  height: auto;
+  margin-bottom: 10%;
+}
+#presentacion div {
+  position: relative;
+}
+
+#presentacion div img {
+  width: 100%;
+  filter: brightness(100%);
+}
+#presentacion div #p{
+  display: flex;
+  color: white;
+  position: absolute;
+  align-items: center;
+  top: 30%;
+  left: 5%;
+  width: 50%;
+}

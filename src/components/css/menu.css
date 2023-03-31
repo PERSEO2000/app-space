@@ -1,0 +1,32 @@
+#menu {
+  width: auto;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  padding: 5% 4% 5% 2%;
+  border-right: 2px solid black;
+  color: white;
+  animation: menu 0.5s linear 1;
+  left: 0%;
+  background: black;
+}
+#menu_lista {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+#categorias {
+  color: darkgreen;
+  margin: 0% auto 5% auto;
+}
+@keyframes menu {
+  0% {
+    left: -100%;
+    background: white;
+  }
+  100% {
+    left: 0%;
+  }
+}

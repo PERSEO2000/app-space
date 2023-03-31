@@ -1,0 +1,29 @@
+.navegar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: darkred;
+  padding: 2% 2% 2% 2%;
+  border-bottom: 1px solid black;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+}
+.navegar_lista {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navegar_lista button {
+  background: transparent;
+  color: white;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: floralwhite;
+  
+}
+a:active {
+  color:  beige;
+}
